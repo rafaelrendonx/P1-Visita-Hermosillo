@@ -1,173 +1,153 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./styles.css">
-        <title>Visita Herrosillo</title>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="" width="75" height="50" class="d-inline-block align-text-top">
-                    </a>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"></a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <button class="btn btn-outline-success" type="submit">Iniciar Sesión</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-            </header>
 
-            <div class="jumbotron jumbotron-fluid jumbotron text-white">
-              <h1 class="mb-4">La ciudad del Sol</h1>
-              <p>Como capital del Estado, reúne gran parte del carácter de Sonora con una visión cada vez más cosmopolita y sensible a los grandes temas actuales: es frenética, pero adora relajarse viendo sus atardeceres; es innovadora y abierta, pero apegada a sus raíces y tradiciones. Lo nuevo surge cada día, en distintas áreas, por ello, es considerada joven de espíritu y de sangre. Por su condición capitalina y empresarial, su actividad turística principal es de negocios; no obstante, la Ciudad del Sol sabe divertirse, y a lo grande.</p>
-              <h4>Visítanos, deja tu contacto:</h4>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Ingresa tu correo" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2">Enviar</span>
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Visita Hermosillo</title>
+</head>
 
-            <div class="card-group">
-                <div class="card">
-                  <img src="images/cerrocampana.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Cerro de la Campana</h5>
-                    <p class="card-text">En el Centro encontrarás el símbolo más representativo de Hermosillo y la vista panorámica más completa y espectacular de la ciudad. Su nombre se debe al sonido que producen las rocas que lo conforman al ser golpeadas.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="images/galerias.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Galerías Mall</h5>
-                      <p class="card-text">Cines, boutiques, tiendas departamentales, heladerías, zapaterías, centros de atención a clientes de varios servicios, restaurantes, casinos, bancos, en fin… la ciudad tiene un mall para diversos tipos de bolsillo, gustos o simplemente, conveniencia.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="images/kino.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Bahía de Kino</h5>
-                    <p class="card-text">A poco más de una hora de distancia, Bahía de Kino es una de las playas más bellas y seguras de Sonora e, incluso, de México; por ello, permite realizar una amplia gama de actividades.</p>
-                  </div>
-                </div>
-              </div>
+<body>
+  <header>
+    <nav class="navbar bg-white m-5">
+      <div class="container-fluid">
+        <a class="brand" href="#">
+          <img src="images/logo.png" alt="" width="75" height="50" class="d-inline-block align-text-top">
+        </a>
+      </div>
+    </nav>
+  </header>
 
-              <div class="row justify-content-center">
-                <div class="col-sm-10">
-                  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="images/kiosko.jpg" class="d-block w-100" alt="..." width="1000" height="800">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/mercado.jpg" class="d-block w-100"  alt="..." width="1000" height="800">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="images/museo.jpg" class="d-block w-100" alt="..." width="1000" height="800">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-              
-            <footer class="text-center text-white" style="background-color: #f1f1f1;">
-            <!-- Grid container -->
-            <div class="container pt-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-            <!-- Facebook -->
-            <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="#!"
-                role="button"
-                data-mdb-ripple-color="dark"
-            >
-            <i class="fab fa-facebook-f"><img src="images/facebook.svg"></i>
-            </a>    
-            <!-- Twitter -->
-            <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="#!"
-                role="button"
-                data-mdb-ripple-color="dark"
-            >
-                <i class="fab fa-twitter"><img src="images/twitter.svg"></i>
-            </a>
-            <!-- Google -->
-            <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="#!"
-                role="button"
-                data-mdb-ripple-color="dark"
-            >
-                <i class="fab fa-google"><img src="images/google.svg"></i>
-            </a>
-            <!-- Instagram -->
-            <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="#!"
-                role="button"
-                data-mdb-ripple-color="dark"
-            >
-                <i class="fab fa-instagram"><img src="images/instagram.svg"></i>
-            </a>      
-            <!-- Linkedin -->
-            <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="#!"
-                role="button"
-                data-mdb-ripple-color="dark"
-            >
-                <i class="fab fa-linkedin"><img src="images/linkedin.svg"></i>
-            </a>
-            <!-- Github -->
-            <a
-                class="btn btn-link btn-floating btn-lg text-dark m-1"
-                href="#!"
-                role="button"
-                data-mdb-ripple-color="dark"
-            >
-                <i class="fab fa-github"><img src="images/github.svg"></i>
-            </a>
-            </section>
-            </div>
-            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">Hermosillo.com</a>
-            </div>
-            <!-- Copyright -->
-            </footer>
+  <div class="jumbotron jumbotron-fluid text-white p-5 mb-4 bg-light rounded-3 jumbotron-sombra">
+    <div class="">
+      <div class="container-fluid py-5">
+        <h1 class="mb-4 display-5 fw-bold">La ciudad del Sol</h1>
+        <p class="col-md-8">Como capital del Estado, reúne gran parte del carácter de Sonora con una visión cada vez más
+          cosmopolita y
+          sensible a los grandes temas actuales: es frenética, pero adora relajarse viendo sus atardeceres; es
+          innovadora
+          y abierta, pero apegada a sus raíces y tradiciones. Lo nuevo surge cada día, en distintas áreas, por ello, es
+          considerada joven de espíritu y de sangre. Por su condición capitalina y empresarial, su actividad turística
+          principal es de negocios; no obstante, la Ciudad del Sol sabe divertirse, y a lo grande.</p>
+        <h4>Visítanos, deja tu contacto:</h4>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Ingresa tu correo" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2">Enviar</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>   
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-    </body>
+  <div class="card-group mb-4">
+    <div class="card m-1">
+      <img src="images/cerrocampana.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cerro de la Campana</h5>
+        <p class="card-text">En el Centro encontrarás el símbolo más representativo de Hermosillo y la vista panorámica
+          más completa y espectacular de la ciudad. Su nombre se debe al sonido que producen las rocas que lo conforman
+          al ser golpeadas.</p>
+      </div>
+    </div>
+    <div class="card m-1">
+      <img src="images/galerias.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Galerías Mall</h5>
+        <p class="card-text">Cines, boutiques, tiendas departamentales, heladerías, zapaterías, centros de atención a
+          clientes de varios servicios, restaurantes, casinos, bancos, en fin… la ciudad tiene un mall para diversos
+          tipos de bolsillo, gustos o simplemente, conveniencia.</p>
+      </div>
+    </div>
+    <div class="card m-1">
+      <img src="images/kino.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bahía de Kino</h5>
+        <p class="card-text">A poco más de una hora de distancia, Bahía de Kino es una de las playas más bellas y
+          seguras de Sonora e, incluso, de México; por ello, permite realizar una amplia gama de actividades.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center m-1">
+    <div class="col-sm-10">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/kiosko.jpg" class="d-block w-100" alt="..." width="1000" height="800">
+          </div>
+          <div class="carousel-item">
+            <img src="images/mercado.jpg" class="d-block w-100" alt="..." width="1000" height="800">
+          </div>
+          <div class="carousel-item">
+            <img src="images/museo.jpg" class="d-block w-100" alt="..." width="1000" height="800">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+          <i class="fab fa-facebook-f"><img src="images/facebook.svg"></i>
+        </a>
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+          <i class="fab fa-twitter"><img src="images/twitter.svg"></i>
+        </a>
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+          <i class="fab fa-google"><img src="images/google.svg"></i>
+        </a>
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+          <i class="fab fa-instagram"><img src="images/instagram.svg"></i>
+        </a>
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+          <i class="fab fa-linkedin"><img src="images/linkedin.svg"></i>
+        </a>
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+          <i class="fab fa-github"><img src="images/github.svg"></i>
+        </a>
+      </section>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">Hermosillo.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

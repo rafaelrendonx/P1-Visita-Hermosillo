@@ -1,4 +1,21 @@
+.navbar {
+    position: relative;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
 .jumbotron { 
     background-image: url(./images/jumbotron.jpg);
     background-size: cover;     
+    min-height: 400px; 
+    
+}
+
+.jumbotron-sombra {  
+    background-color: rgba(0, 0, 0, .7);
+    background-color: rgb(0 0 0 / 70%);
 }
